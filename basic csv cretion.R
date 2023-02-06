@@ -1,0 +1,7 @@
+s.no<-c(1,2,3,4,5)
+name<-c("sathish","kumar","jothika","anna","kavi")
+age<-c(12,13,14,15,16)
+wieght<-c(123,234,345,567,890)
+df<-data.frame(s.no,name,age,wieght)
+View(df)
+write.csv(df,"person.csv")
